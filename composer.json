@@ -18,7 +18,7 @@
             "package": {
                 "name": "wordpress/wordpress",
                 "type": "webroot",
-                "version": "*",
+                "version": "4.7.2",
                 "dist": {
                     "type": "zip",
                     "url": "https://wordpress.org/latest.zip"

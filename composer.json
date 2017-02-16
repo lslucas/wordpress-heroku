@@ -33,7 +33,7 @@
         "php": "~7.0.3",
         "ext-gd": "*",
         "ext-mbstring": "*",
-        "wordpress/wordpress-ja": "*",
+        "wordpress/wordpress": "*",
         "wpackagist-plugin/jetpack": "*",
         "wpackagist-plugin/mailgun": "*",
         "wpackagist-plugin/nephila-clavata": "*",

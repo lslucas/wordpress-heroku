@@ -1,0 +1,33 @@
+img.nhp-opts-screenshot {
+
+	padding: 5px;
+	border: 1px solid #e3e3e3;
+	background: #f7f7f7;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+
+}
+
+img.image_preview {
+
+	border: solid #FFF 5px;
+	border-radius: 2px;
+	box-shadow: 1px 1px 3px #999;
+
+}
+
+.post-type-elegance_showcase .edit-form-section, .post-type-elegance_showcase .wp-editor-expand{
+	display: none;
+}
+.labelclass{
+	font-weight: 700;
+	font-size: 16px;
+	padding-bottom: 10px;
+	color: #555;
+}
+.postbox-container .hndle{
+	font-weight: 700;
+	font-size: 20px !important;
+}

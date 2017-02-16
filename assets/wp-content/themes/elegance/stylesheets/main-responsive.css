@@ -1,0 +1,1200 @@
+/*MAIN.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: ELEGANCE.*/
+/* Author: Designova.*/
+/* Website: http://www.designova.net */
+/* Copyright: (C) 2014 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/*==========================*/
+/*ALL DEVICE OPTIMIZATION*/
+/*===========================*/
+
+
+/*Huge Displays*/
+@media (min-width: 3000px) {
+	.works-item, .news-item{
+	  width: 25% !important;
+	}
+}
+
+/*Projector Screens and Ver Large Monitors*/
+@media (min-width: 2561px) {
+	.works-item, .news-item{
+	  width: 33.3% !important;
+	}
+}
+
+/*iMac 27, HD Screens and Large Monitors*/
+@media (min-width: 1921px) and (max-width: 2560px) {
+	.works-item, .news-item{
+	  width: 33.3% !important;
+	}
+
+}
+
+/*Large Widescreen Monitors*/
+@media (max-width: 1920px) {
+	.works-item, .news-item{
+	  width: 33.3% !important;
+	}
+}
+
+/*Medium Widescreen Monitors*/
+@media (max-width: 1680px) {
+	.works-item, .news-item{
+	  width: 33.3% !important;
+	}
+}
+
+/*Large Widescreen Laptops*/
+@media (max-width: 1440px) {
+	.works-item, .news-item{
+	  width: 33.3% !important;
+	}
+}
+
+/*Common Widescreen Laptops*/
+@media (max-width: 1366px) {
+	.works-item, .news-item{
+	  width: 33.3% !important;
+	}
+}
+
+
+/*Medium Laptops*/
+@media (max-width: 1280px) {
+	.works-item, .news-item{
+	  width: 33.3% !important;
+	}
+}
+
+
+/*Very Large Tablets and Small-medium Laptops ( 'lg' viewport trigger in Bootstrap)*/
+@media (max-width: 1199px) {
+	.inner-mastwrap{
+		margin-left: 0;
+		padding-top: 47px;
+	}
+	.works-item, .news-item{
+	  width: 33.3% !important;
+	}
+}
+
+/*Notebooks and Small Laptops*/
+@media (max-width: 1152px) {
+	.inner-mastwrap{
+		margin-left: 0;
+		padding-top: 47px;
+	}
+	.works-item, .news-item{
+	  width: 33.3% !important;
+	}
+}
+
+/*iPad Landscape Mode and Large Tablets */
+@media (max-width: 1024px) {
+	.inner-mastwrap{
+		margin-left: 0;
+		padding-top: 47px;
+	}
+	.works-item, .news-item{
+	  width: 33.3% !important;
+	}
+}
+
+/*Small Desktop and Very Small Notebook */
+@media (max-width: 980px) {
+
+	.container, .features-details {
+	    max-width: 900px;
+	}
+	
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.sidebar h4{ text-align: left;}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.inner-mastwrap{
+		margin-left: 0;
+		padding-top: 47px;
+	}
+	.promo-showcase-page h1, .std-showcase-page h1{
+		font-size: 22px;
+		line-height: 29px;
+	}
+	.promo-showcase-page h5 > span, .promo-showcase-page h1, .std-showcase-page h1, .caps-link, .std-showcase-page h5 > span, .std-showcase-page .caps-link{
+		margin-right: 0;
+	}
+	.std-showcase-page h1{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.caps-count{
+		width: 100%;
+		text-align: center;
+		right: 0;
+	}
+	.promo-showcase-page h5 > span, .promo-showcase-page h5{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.promo-showcase-page h1 > span, .agency-showcase-page h1 > span{
+		font-size: 26px;
+		line-height: 33px;
+	}
+	.crest{
+    padding: 10px !important;
+    width: 900px !important;
+	}
+	.works-item, .news-item{
+	  width: 33.3% !important;
+	}
+	.works-item-inner h3, .testimonial-wrap p, .team-info h3{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.promo-text, .testimonial-wrap h6{
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.inner-pad{
+		padding: 60px 30px;
+	}
+	.about-stats, .side-pad{
+		padding: 30px;
+	}
+	.stats-item h3{
+		font-size: 26px;
+		line-height: 33px;
+	}
+	.page-head h1 > span, span.page-heading{
+		padding: 20px;
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.services-spec .row .col-md-6{
+		padding: 20px;
+	}
+	.services-spec h3, .shop-mainheading{
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.team-info h6{
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.works-filter-wrap{
+		padding: 40px 30px;
+	}
+	.works-nav a > span, .news-nav a > span{
+		padding: 10px;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.news-listing-item{
+		text-align: center;
+	}
+	.checkout-table td, .checkout-table th{
+		display: block !important;
+	}
+	.checkout-table thead, .checkout-table tr{
+		border-bottom: solid 40px #EBEBEB;
+	}
+	.checkout-table tr:last-child{
+		border-bottom: none;
+	}
+	.btn-elegance{
+		margin-top: 5px;
+	}
+
+	.service-item .text-left h3, .service-item .text-left h4{
+		text-align: left !important;
+	}
+	.service-item .text-right h3, .service-item .text-right h4{
+		text-align: right !important;
+	}
+}
+
+/*Medium Tablets */
+@media (max-width: 800px) {
+
+	.container, .features-details {
+	    max-width: 700px;
+	}
+	
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.inner-mastwrap{
+		margin-left: 0;
+		padding-top: 47px;
+	}
+	.promo-showcase-page h1, .std-showcase-page h1{
+		font-size: 22px;
+		line-height: 29px;
+	}
+	.promo-showcase-page h5 > span, .promo-showcase-page h1, .std-showcase-page h1, .caps-link, .std-showcase-page h5 > span, .std-showcase-page .caps-link{
+		margin-right: 0;
+	}
+	.std-showcase-page h1{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.caps-count{
+		width: 100%;
+		text-align: center;
+		right: 0;
+	}
+	.promo-showcase-page h5 > span, .promo-showcase-page h5{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.promo-showcase-page h1 > span, .agency-showcase-page h1 > span{
+		font-size: 26px;
+		line-height: 33px;
+	}
+	.crest{
+    padding: 10px !important;
+    width: 700px !important;
+	}
+	.works-item, .news-item{
+	  width: 50% !important;
+	}
+	.works-item-inner h3, .testimonial-wrap p, .team-info h3{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.promo-text, .testimonial-wrap h6{
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.inner-pad{
+		padding: 60px 30px;
+	}
+	.about-stats, .side-pad{
+		padding: 30px;
+	}
+	.stats-item h3{
+		font-size: 26px;
+		line-height: 33px;
+	}
+	.page-head h1 > span, span.page-heading{
+		padding: 20px;
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.services-spec .row .col-md-6{
+		padding: 20px;
+	}
+	.services-spec h3, .shop-mainheading{
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.team-info h6{
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.works-filter-wrap{
+		padding: 40px 30px;
+	}
+	.works-nav a > span, .news-nav a > span{
+		padding: 10px;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.news-listing-item{
+		text-align: center;
+	}
+	.checkout-table td, .checkout-table th{
+		display: block !important;
+	}
+	.checkout-table thead, .checkout-table tr{
+		border-bottom: solid 40px #EBEBEB;
+	}
+	.checkout-table tr:last-child{
+		border-bottom: none;
+	}
+	.btn-elegance{
+		margin-top: 5px;
+	}
+}
+
+
+/*iPad Portrait Mode, iPad Mini and Small Tablets */
+@media (max-width: 768px) {
+	
+	.container, .features-details {
+	    max-width: 668px;
+	}
+	
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.inner-mastwrap{
+		margin-left: 0;
+		padding-top: 47px;
+	}
+	.promo-showcase-page h1, .std-showcase-page h1{
+		font-size: 22px;
+		line-height: 29px;
+	}
+	.promo-showcase-page h5 > span, .promo-showcase-page h1, .std-showcase-page h1, .caps-link, .std-showcase-page h5 > span, .std-showcase-page .caps-link{
+		margin-right: 0;
+	}
+	.std-showcase-page h1{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.caps-count{
+		width: 100%;
+		text-align: center;
+		right: 0;
+	}
+	.promo-showcase-page h5 > span, .promo-showcase-page h5{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.promo-showcase-page h1 > span, .agency-showcase-page h1 > span{
+		font-size: 26px;
+		line-height: 33px;
+	}
+	.crest{
+    padding: 10px !important;
+    width: 668px !important;
+	}
+	.works-item, .news-item{
+	  width: 50% !important;
+	}
+	.works-item-inner h3, .testimonial-wrap p, .team-info h3{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.promo-text, .testimonial-wrap h6{
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.inner-pad{
+		padding: 60px 30px;
+	}
+	.about-stats, .side-pad{
+		padding: 30px;
+	}
+	.stats-item h3{
+		font-size: 26px;
+		line-height: 33px;
+	}
+	.page-head h1 > span, span.page-heading{
+		padding: 20px;
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.services-spec .row .col-md-6{
+		padding: 20px;
+	}
+	.services-spec h3, .shop-mainheading{
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.team-info h6{
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.works-filter-wrap{
+		padding: 40px 30px;
+	}
+	.works-nav a > span, .news-nav a > span{
+		padding: 10px;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.news-listing-item{
+		text-align: center;
+	}
+	.checkout-table td, .checkout-table th{
+		display: block !important;
+	}
+	.checkout-table thead, .checkout-table tr{
+		border-bottom: solid 40px #EBEBEB;
+	}
+	.checkout-table tr:last-child{
+		border-bottom: none;
+	}
+	.btn-elegance{
+		margin-top: 5px;
+	}
+}
+
+/*Medium Smart Phones v2*/
+@media screen and (max-width: 640px) {
+
+	.service-item .text-right img.img-responsive, .service-item .text-left img.img-responsive{
+		float: none;
+		margin: 0 auto;
+	}
+	.service-left{
+		padding-left: 0px;
+	}
+	.service-right{
+		padding-right: 0px;
+		margin-bottom: 50px !important;
+	}
+	.service-item .text-left h3, .service-item .text-left h4{
+		text-align: center !important;
+	}
+	.service-item .text-right h3, .service-item .text-right h4{
+		text-align: center !important;
+	}
+	.container, .features-details {
+	    max-width: 540px;
+	    padding-left:50px;
+	    padding-right:50px;
+	}
+	.add-top-half{
+		margin-top: 35px;
+	}
+	.add-bottom-half{
+		margin-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 60px;
+	}
+	.pad-bottom{
+		padding-bottom: 60px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.inner-mastwrap{
+		margin-left: 0;
+		padding-top: 47px;
+	}
+	.promo-showcase-page h1, .std-showcase-page h1{
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.promo-showcase-page h5 > span, .promo-showcase-page h1, .std-showcase-page h1, .caps-link, .std-showcase-page h5 > span, .std-showcase-page .caps-link{
+		margin-right: 0;
+	}
+	.std-showcase-page h1{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.caps-count{
+		width: 100%;
+		text-align: center;
+		right: 0;
+	}
+	.promo-showcase-page h5 > span, .promo-showcase-page h5{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	.promo-showcase-page h1 > span, .agency-showcase-page h1 > span{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.crest{
+    padding: 10px !important;
+    width: 540px !important;
+	}
+	.works-item, .news-item{
+	  width: 50% !important;
+	}
+	.works-item-inner h3, .testimonial-wrap p, .team-info h3{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	.promo-text, .testimonial-wrap h6{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.inner-pad{
+		padding: 60px 30px;
+	}
+	.about-stats, .side-pad{
+		padding: 30px;
+	}
+	.stats-item h3{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.page-head h1 > span, span.page-heading{
+		padding: 10px;
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.services-spec .row .col-md-6{
+		padding: 20px;
+	}
+	.services-spec h3, .shop-mainheading{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.team-info h6{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.works-filter-wrap{
+		padding: 40px 30px;
+	}
+	.works-nav a > span, .news-nav a > span{
+		padding: 10px;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.news-listing-item{
+		text-align: center;
+	}
+	.checkout-table td, .checkout-table th{
+		display: block !important;
+	}
+	.checkout-table thead, .checkout-table tr{
+		border-bottom: solid 40px #EBEBEB;
+	}
+	.checkout-table tr:last-child{
+		border-bottom: none;
+	}
+	.btn-elegance{
+		margin-top: 5px;
+	}
+}
+
+/*Google Nexus and Other Large Smart Phones v1*/
+@media screen and (max-width: 600px) {
+	
+	.container, .features-details {
+	    max-width: 500px;
+	    padding-left:50px;
+	    padding-right:50px;
+	}
+	.add-top-half{
+		margin-top: 35px;
+	}
+	.add-bottom-half{
+		margin-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 60px;
+	}
+	.pad-bottom{
+		padding-bottom: 60px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.inner-mastwrap{
+		margin-left: 0;
+		padding-top: 47px;
+	}
+	.promo-showcase-page h1, .std-showcase-page h1{
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.promo-showcase-page h5 > span, .promo-showcase-page h1, .std-showcase-page h1, .caps-link, .std-showcase-page h5 > span, .std-showcase-page .caps-link{
+		margin-right: 0;
+	}
+	.std-showcase-page h1{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.caps-count{
+		width: 100%;
+		text-align: center;
+		right: 0;
+	}
+	.promo-showcase-page h5 > span, .promo-showcase-page h5{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	.promo-showcase-page h1 > span, .agency-showcase-page h1 > span{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.crest{
+    padding: 10px !important;
+    width: 500px !important;
+	}
+	.works-item, .news-item{
+	  width: 50% !important;
+	}
+	.works-item-inner h3, .testimonial-wrap p, .team-info h3{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	.promo-text, .testimonial-wrap h6{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.inner-pad{
+		padding: 60px 30px;
+	}
+	.about-stats, .side-pad{
+		padding: 30px;
+	}
+	.stats-item h3{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.page-head h1 > span, span.page-heading{
+		padding: 10px;
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.services-spec .row .col-md-6{
+		padding: 20px;
+	}
+	.services-spec h3, .shop-mainheading{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.team-info h6{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.works-filter-wrap{
+		padding: 40px 30px;
+	}
+	.works-nav a > span, .news-nav a > span{
+		padding: 10px;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.news-listing-item{
+		text-align: center;
+	}
+	.checkout-table td, .checkout-table th{
+		display: block !important;
+	}
+	.checkout-table thead, .checkout-table tr{
+		border-bottom: solid 40px #EBEBEB;
+	}
+	.checkout-table tr:last-child{
+		border-bottom: none;
+	}
+	.btn-elegance{
+		margin-top: 5px;
+	}
+}
+	
+
+/*iPhone Landscape Mode and Mediium Smart Phones*/
+@media screen and (max-width: 480px) {
+	
+	.container, .features-details {
+	    max-width: 420px;
+	    padding-left: 30px;
+	    padding-right: 30px;
+	}
+	.add-top-half{
+		margin-top: 35px;
+	}
+	.add-bottom-half{
+		margin-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 60px;
+	}
+	.pad-bottom{
+		padding-bottom: 60px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.inner-mastwrap{
+		margin-left: 0;
+		padding-top: 47px;
+	}
+	.promo-showcase-page h1, .std-showcase-page h1{
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.promo-showcase-page h5 > span, .promo-showcase-page h1, .std-showcase-page h1, .caps-link, .std-showcase-page h5 > span, .std-showcase-page .caps-link{
+		margin-right: 0;
+	}
+	.std-showcase-page h1{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.caps-count{
+		width: 100%;
+		text-align: center;
+		right: 0;
+	}
+	.promo-showcase-page h5 > span, .promo-showcase-page h5{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	.promo-showcase-page h1 > span, .agency-showcase-page h1 > span{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.crest{
+    padding: 10px !important;
+    width: 420px !important;
+	}
+	.works-item, .news-item{
+	  width: 50% !important;
+	}
+	.works-item-inner h3, .testimonial-wrap p, .team-info h3{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	.promo-text, .testimonial-wrap h6{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.inner-pad{
+		padding: 60px 30px;
+	}
+	.about-stats, .side-pad{
+		padding: 30px;
+	}
+	.stats-item h3{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.page-head h1 > span, span.page-heading{
+		padding: 10px;
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.services-spec .row .col-md-6{
+		padding: 20px;
+	}
+	.services-spec h3, .shop-mainheading{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.team-info h6{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.works-filter-wrap{
+		padding: 40px 30px;
+	}
+	.works-nav a > span, .news-nav a > span{
+		padding: 10px;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.news-listing-item{
+		text-align: center;
+	}
+	.checkout-table td, .checkout-table th{
+		display: block !important;
+	}
+	.checkout-table thead, .checkout-table tr{
+		border-bottom: solid 40px #EBEBEB;
+	}
+	.checkout-table tr:last-child{
+		border-bottom: none;
+	}
+	.btn-elegance{
+		margin-top: 5px;
+	}
+
+	.promo-showcase-carousel-item .inner-overlay .valign{
+		margin-left: 0px;
+		margin: 0 auto;
+	}
+	.promo-showcase-page .caps-link{
+		margin-right: 0px;
+	}
+	.promo-showcase-page .caps-count{
+		left : 10px;
+    	bottom: 30px;
+    	text-align: left;
+	}
+	.blog_pagination a{
+		display: inline-block;
+		clear: both;
+	}
+
+}
+@media screen and (max-width: 470px) {
+.blog_pagination a + a{
+		margin-top: 15px;
+		margin-left: 0px !important;
+	}
+}
+/*Other Major Small Smart Phones*/
+@media screen and (max-width: 360px) {
+	
+	.container, .features-details {
+	    max-width: 320px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		margin-top: 35px;
+	}
+	.add-bottom-half{
+		margin-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 60px;
+	}
+	.pad-bottom{
+		padding-bottom: 60px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.inner-mastwrap{
+		margin-left: 0;
+		padding-top: 47px;
+	}
+	.promo-showcase-page h1, .std-showcase-page h1{
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.promo-showcase-page h5 > span, .promo-showcase-page h1, .std-showcase-page h1, .caps-link, .std-showcase-page h5 > span, .std-showcase-page .caps-link{
+		margin-right: 0;
+	}
+	.std-showcase-page h1{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.caps-count{
+		width: 100%;
+		text-align: center;
+		right: 0;
+	}
+	.promo-showcase-page h5 > span, .promo-showcase-page h5{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	.promo-showcase-page h1 > span, .agency-showcase-page h1 > span{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.crest{
+    padding: 10px !important;
+    width: 320px !important;
+	}
+	.works-item, .news-item{
+	  width: 100% !important;
+	}
+	.works-item-inner h3, .testimonial-wrap p, .team-info h3{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	.promo-text, .testimonial-wrap h6{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.inner-pad{
+		padding: 60px 30px;
+	}
+	.about-stats, .side-pad{
+		padding: 30px;
+	}
+	.stats-item h3{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.page-head h1 > span, span.page-heading{
+		padding: 10px;
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.services-spec .row .col-md-6{
+		padding: 20px;
+	}
+	.services-spec h3, .shop-mainheading{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.team-info h6{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.works-filter-wrap{
+		padding: 40px 30px;
+	}
+	.works-nav a > span, .news-nav a > span{
+		padding: 10px;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.news-listing-item{
+		text-align: center;
+	}
+	.checkout-table td, .checkout-table th{
+		display: block !important;
+	}
+	.checkout-table thead, .checkout-table tr{
+		border-bottom: solid 40px #EBEBEB;
+	}
+	.checkout-table tr:last-child{
+		border-bottom: none;
+	}
+	.btn-elegance{
+		margin-top: 5px;
+	}
+}
+
+/*iPhone Portrait Mode and Very Small Mobile Phones*/
+@media screen and (max-width: 320px) {
+	
+	.container, .features-details {
+	    max-width: 280px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		margin-top: 35px;
+	}
+	.add-bottom-half{
+		margin-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 60px;
+	}
+	.pad-bottom{
+		padding-bottom: 60px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.inner-mastwrap{
+		margin-left: 0;
+		padding-top: 47px;
+	}
+	.promo-showcase-page h1, .std-showcase-page h1{
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.promo-showcase-page h5 > span, .promo-showcase-page h1, .std-showcase-page h1, .caps-link, .std-showcase-page h5 > span, .std-showcase-page .caps-link{
+		margin-right: 0;
+	}
+	.std-showcase-page h1{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.caps-count{
+		width: 100%;
+		text-align: center;
+		right: 0;
+	}
+	.promo-showcase-page h5 > span, .promo-showcase-page h5{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	.promo-showcase-page h1 > span, .agency-showcase-page h1 > span{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.crest{
+    padding: 10px !important;
+    width: 280px !important;
+	}
+	.works-item, .news-item{
+	  width: 100% !important;
+	}
+	.works-item-inner h3, .testimonial-wrap p, .team-info h3{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	.promo-text, .testimonial-wrap h6{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.inner-pad{
+		padding: 60px 30px;
+	}
+	.about-stats, .side-pad{
+		padding: 30px;
+	}
+	.stats-item h3{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.page-head h1 > span, span.page-heading{
+		padding: 10px;
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.services-spec .row .col-md-6{
+		padding: 20px;
+	}
+	.services-spec h3, .shop-mainheading{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.team-info h6{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.works-filter-wrap{
+		padding: 40px 30px;
+	}
+	.works-nav a > span, .news-nav a > span{
+		padding: 10px;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.news-listing-item{
+		text-align: center;
+	}
+	.checkout-table td, .checkout-table th{
+		display: block !important;
+	}
+	.checkout-table thead, .checkout-table tr{
+		border-bottom: solid 40px #EBEBEB;
+	}
+	.checkout-table tr:last-child{
+		border-bottom: none;
+	}
+	.btn-elegance{
+		margin-top: 5px;
+	}
+}
+
+
+

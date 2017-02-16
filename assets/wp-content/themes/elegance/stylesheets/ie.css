@@ -1,0 +1,13 @@
+
+#nav-icon span{
+	display: none !important;
+	visibility: hidden !important;
+}
+#nav-icon {
+    background-image:url('../images/iemenu.png');
+	background-repeat: no-repeat !important;
+	background-position: top center !important;
+}
+.menu-trigger{
+	padding-top: 20px;
+}

@@ -1,0 +1,718 @@
+@charset utf-8;
+
+/*
+Theme Name: Elegance
+Theme URI: http://www.designova.net/themes/wordpress/elegance
+Description: A Premium Responsive Creative wordpress theme
+Author: Designova
+Author URI: http://www.designova.net
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Version: 1.5
+Tags: light,theme-options, translation-ready
+
+Designed & Handcrafted by Designova
+All files, unless otherwise stated, are released under the GNU General Public License
+*/
+
+/*--------------------------------------------------------*/
+/* TABLE OF CONTENTS: */
+/*--------------------------------------------------------*/
+/* 01 - LAYOUT INITIALIZATION & COLOR PRESETS */
+/* 02 - HEADER, FOOTER, INTRO & NAVIGATION */
+/* 03 - COMMON ELEMENTS & TYPOGRAPHY */
+/* 04 - PAGES & SECTIONS SETUP*/
+/* 05 - BLOG LAYOUT*/
+/* 06 - WP ESSENTIALS*/
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 01 - LAYOUT INITIALIZATION & COLOR PRESETS */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+a{outline: none !important;}
+.clear{clear: both;}
+.uppercase{text-transform: uppercase;}
+
+.text-right img.img-responsive{
+	float: right;
+}
+.text-left img.img-responsive{
+	float: left;
+}
+.text-center img.img-responsive{
+	margin: 0 auto;
+}
+.covered-bg{
+    background-position: center center;
+    background-repeat: no-repeat ;
+    background-size: cover !important;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 02 - HEADER, FOOTER, INTRO & NAVIGATION */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+#mastwrap{
+    visibility: hidden;
+}
+.pace-done #mastwrap{
+    visibility: visible;
+}
+.menu-collapser > img{
+    max-height: 25px;
+    width: auto;
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 03 - COMMON ELEMENTS & TYPOGRAPHY */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.button-elegance-wrap{
+    display: inline-block;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+.enable-btn-border .button-elegance{
+    padding: 20px 40px !important;
+}
+/*.elegance-vc-inactive .elegance-main-content-area{
+    width: 1000px;
+    margin: 0 auto;
+}*/
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 04 - PAGES & SECTIONS SETUP */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.service-item h4 {
+    font-style: italic;
+    text-transform: lowercase;
+}
+.service-right{
+	padding-right: 30px;
+}
+.service-left{
+	padding-left: 30px;
+}
+@media (min-width: 1200px) {
+.tweet-feed-wrap{
+	margin-left: 70px;
+}
+}
+
+.crest{
+    padding: 30px;
+    border:solid 6px #ebebeb;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.personal-page h1{
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+.personal-page h3{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+.eleg-parallax-page-overlay{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.5);
+    -webkit-transition: all 1s ease-in-out;
+       -moz-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+         -o-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+}
+.eleg-parallax-page:hover .eleg-parallax-page-overlay{
+	opacity: 1;
+    -webkit-transition: all 1s ease-in-out;
+       -moz-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+         -o-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+}
+
+
+.std-showcase-carousel-item{
+    height: 100%;
+}
+.std-showcase-page .inner-overlay{
+    /*background-color: rgba(255,255,255,0.1);*/
+}
+.std-showcase-carousel-item .inner-overlay .valign{
+    display: none;
+}
+.std-showcase-carousel-item:first-child .inner-overlay .valign{
+    display: block;
+}
+.intro-caption{
+    padding: 60px;
+}
+
+.std-showcase-page h5 > span{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 60px;
+    padding: 4px;
+    padding-left: 6px;
+}
+.std-showcase-page h1{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+}
+.std-showcase-page h1{
+    font-size: 48px;
+    line-height: 55px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    padding-right: 50px;
+}
+.std-showcase-page .caps-link{
+    margin-right: 60px;
+}
+.std-showcase-page .caps-link > span{
+    border-top: solid 1px #fff;
+    padding-top: 10px;
+
+}
+.std-showcase-page a.explore{
+    font-size: 20px;
+    line-height: 27px;
+    font-style: italic;
+    cursor: pointer;
+}
+.std-showcase-page .caps-count{
+    position: absolute;
+    bottom: 90px;
+   right: 60px;
+}
+.std-showcase-page .caps-count > p{
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.std-showcase-page .caps-count > p > span{
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.std-showcase-carousel-item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.std-showcase-page .owl-theme .owl-controls{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    right: 60px;
+    top: 60px;
+}
+.std-showcase-page .owl-theme .owl-controls .owl-page.active span, .std-showcase-page .owl-theme .owl-controls.clickable .owl-page:hover span{
+    background-color: #fff !important;
+}
+
+
+.parallax-showcase-page .inner-overlay{
+    background-color: rgba(0,0,0,0.4);
+    opacity: 0;
+    -webkit-transition: all 1s ease-in-out;
+       -moz-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+         -o-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+}
+.parallax-showcase-page:hover .inner-overlay{
+    opacity: 1;
+    -webkit-transition: all 1s ease-in-out;
+       -moz-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+         -o-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+}
+.parallax-showcase-page .crest{
+    padding: 30px;
+    border:solid 6px #ebebeb;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.parallax-showcase-page h1{
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 0;
+}
+.parallax-showcase-page h3{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.parallax-showcase-page .intro-05-hero-bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.parallax-showcase-page .caps-link{
+}
+.parallax-showcase-page a.explore{
+    font-size: 24px;
+    line-height: 31px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+
+.agency-showcase-carousel-item{
+    height: 100%;
+}
+.agency-showcase-page .inner-overlay{
+    background-color: rgba(255,255,255,0.7);
+    opacity: 0;
+    -webkit-transition: all 1s ease-in-out;
+       -moz-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+         -o-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+}
+.agency-showcase-carousel-item:hover .inner-overlay{
+    opacity: 1;
+    -webkit-transition: all 1s ease-in-out;
+       -moz-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+         -o-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+}
+.agency-showcase-page .intro-caption{
+    padding: 60px;
+}
+
+.agency-showcase-page h5{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.agency-showcase-page h1{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.agency-showcase-page h1>span{
+    font-size: 64px;
+    line-height: 71px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    border-bottom: solid 1px;
+    padding-bottom: 10px;
+}
+.agency-showcase-page a.explore{
+    font-size: 20px;
+    line-height: 27px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.agency-showcase-carousel-item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.agency-showcase-page .owl-theme .owl-controls{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 50%;
+    margin-top: 120px;
+}
+
+.agency-showcase-page .owl-theme .owl-controls .owl-page.active span, .agency-showcase-page  .owl-theme .owl-controls.clickable .owl-page:hover span{
+    background-color: #000 !important;
+}
+.agency-showcase-page .owl-theme .owl-controls .owl-page span{
+    width: 16px;
+    height: 16px;
+}
+
+
+
+
+.promo-showcase-carousel-item{
+    height: 100%;
+}
+.promo-showcase-carousel-item .inner-overlay{
+    background-color: rgba(0,0,0,0.3);
+}
+.promo-showcase-carousel-item .inner-overlay .valign{
+    margin-left: 120px;
+    width: 70%;
+}
+.promo-showcase-carousel-item:first-child .inner-overlay .valign{
+    display: block;
+}
+.promo-showcase-page .intro-caption{
+    padding: 60px;
+}
+
+.promo-showcase-page h5 > span{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 60px;
+    padding: 10px 10px 10px 12px;
+}
+.promo-showcase-page h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+}
+.promo-showcase-page h1{
+    font-size: 72px;
+    line-height: 79px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.promo-showcase-page .caps-link{
+    margin-right: 60px;
+}
+.promo-showcase-page .caps-link > span{
+    border-top: solid 1px #fff;
+    padding-top: 10px;
+
+}
+.promo-showcase-page a.explore{
+    font-size: 24px;
+    line-height: 31px;
+    font-style: italic;
+    cursor: pointer;
+}
+.promo-showcase-page a.explore:hover
+{
+    color: #121212;
+}
+.promo-showcase-page .caps-count{
+    position: absolute;
+    bottom: 90px;
+   right: 60px;
+}
+.promo-showcase-page .caps-count > p{
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.promo-showcase-page .caps-count > p > span{
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.promo-showcase-carousel-item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.promo-showcase-page .owl-theme .owl-controls{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    right: 60px;
+    top: 60px;
+}
+.promo-showcase-page .owl-pagination{
+    text-align: right;
+}
+.promo-showcase-page .owl-theme .owl-controls .owl-page span{
+      background-color: #fff !important;
+    border-radius: 0px;
+    height: 7px;
+    margin: 0;
+    width: 30px;
+}
+.promo-showcase-page .owl-theme .owl-controls .owl-page.active span, .promo-showcase-page .owl-theme .owl-controls.clickable .owl-page:hover span{
+    background-color: #fff !important;
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 05 - BLOG LAYOUT */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.news-listing-item{
+    position: relative;
+}
+.news-listing-item p{
+    margin-bottom: 25px;
+}
+.news-listing-item .sticky-icon{
+    position: absolute;
+    top: -5px;
+    right: 25px;
+}
+.contact_web_url{
+    display: none;
+}
+/*.post-content-area{
+    border-top: 1px #282B2D solid;
+    padding-top: 15px;
+    margin-top: 15px; 
+}*/
+.post-attr{
+    margin-top: 15px;
+    line-height: 28px;
+}
+.post-attr img{
+    height: 30px;
+    width: auto;
+}
+
+.feature-content-area{
+    margin-bottom: 20px;
+}
+.post_footer{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.tagcloud a, .post-tags a {
+    background: none repeat scroll 0 0 #ebebeb;
+    color: #282B2D;
+    display: inline-block;
+    font-size: 12px !important;
+    margin-bottom: 7px;
+    margin-right: 5px;
+    padding: 7px 10px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+}
+
+.sidebar li{
+    list-style: none;
+}
+.sidebar ul{
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 15px;
+}
+.sidebar ul a{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+.sidebar ul li{
+    margin-bottom: 10px;
+}
+.sidebar .sub-heading span{
+    border: 6px solid #ebebeb;
+    display: inline-block;
+    
+    font-weight: 600;
+    letter-spacing: 4px;
+    line-height: 31px;
+    padding: 15px 26px 15px 31px;
+    text-transform: uppercase;
+}
+.comments-section ul{
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 15px;
+}
+
+.commentlists li article{
+    
+    border-radius: 0px;
+    border: none;
+}
+.commentlists .comment .panel{
+    background: #FAFAFA;
+    padding: 25px;
+}
+.comment ul.children{margin-left: 50px;}
+.commentlists .avatarbox{
+    margin-bottom: 15px;
+}
+.cmntbox p{
+    border-top: #EEE solid 1px;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.comments{
+    margin-bottom: 100px;
+}
+
+.comments-wrap{
+    /*border-top: 1px solid #ebebeb;
+    padding-top: 50px;*/
+    margin-top: 50px;
+}
+.comments-wrap #post-comment{
+    text-transform: uppercase;
+     -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+.comments-wrap #post-comment:hover{
+    background: #282B2D;
+    color: #FFF !important;
+}
+.comments-wrap .control-label{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+.comments-wrap .comment-reply-title{
+    text-transform: uppercase;
+    border: 6px solid #ebebeb;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    line-height: 31px;
+    padding: 15px 26px 15px 31px;
+
+}
+.comments-wrap .comment-form{
+    margin-top: 25px;
+}
+.blog_pagination.post_nav a+a{
+    margin-left: 20px;
+}
+.post-type-quote {
+    background: #fafafa;
+    padding: 20px;
+    font-style: italic;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.post-type-link{
+    background: #fafafa;
+    padding: 20px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+
+.sidebar .category-list ul ul{
+    margin-left: 20px;
+}
+.elegance-main-content-area img, .inner-page-content img{
+    max-width: 100%;
+    height: auto;
+}
+.single-post .inner-page-content img{
+    margin:10px 0;
+}
+#comments-form .form-submit{
+    margin-top: 20px;
+}
+.news-container .news-item img{
+    margin: 0 auto;
+}
+
+.inner-page-content.entry a{
+ text-decoration: underline;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 06 - WP ESSENTIALS */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.alignright{
+    text-align: right;
+    float: right;
+    margin-left: 20px;
+}
+
+.alignleft{
+    text-align: left;
+    float: left;
+    margin-right: 20px; 
+}
+
+.aligncenter{
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+}
+
+.wp-caption{
+    background: #222;
+
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+    clear: both;
+
+}
+.wp-caption-text{
+    color: #FFF !important;
+    background: #222;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px 0 5px;
+}
+.sticky{color:#000;}
+.gallery-caption{
+    color: #222;
+}
+.bypostauthor{color: #000;}
+
+table, th, td {
+   border: 1px solid #CCC;
+   padding: 10px;
+} 
+
+

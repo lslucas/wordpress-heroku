@@ -24,6 +24,6 @@ for wp_dir in wp-admin wp-content wp-includes; do
 done
 
 # Exceptions
-ln -snv "../../assets/wp-content/themes" "${public}/wp-content/my-themes" 2>/dev/null
+ln -snv "../../assets/wp-content/themes/elegance" "${public}/wp-content/themes/elegance" 2>/dev/null
 
 exit 0
